@@ -10,6 +10,20 @@ module.exports = {
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
     siteTitleAlt: `AR Marketing Solutions`,
+    // Default title of the page
+    siteTitleAlt: `AR`,
+    // Can be used for e.g. JSONLD
+    siteHeadline: `AR`,
+    // Will be used to generate absolute URLs for og:image etc.
+    siteUrl: `https://armarketing.netlify.app/`,
+    // Used for SEO
+    siteDescription: `AR`,
+    // Will be set on the <html /> tag
+    siteLanguage: `en`,
+    // Used for og:image and must be placed inside the `static` folder
+    siteImage: `/banner.jpg`,
+    // Twitter Handle
+    author: `AR`,
   },
   plugins: [
     {
